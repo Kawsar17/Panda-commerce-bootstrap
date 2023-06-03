@@ -12,7 +12,7 @@
 <body>
   <!-- Header start -->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="" >
@@ -27,13 +27,13 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Shose</a>
+              <a class="nav-link active" aria-current="page" href="#Shose">Shose</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Backpack</a>
+              <a class="nav-link active" aria-current="page" href="#Backpack">Backpack</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Subscribe</a>
+              <a class="nav-link active" aria-current="page" href="#Subscribe">Subscribe</a>
             </li>
           </ul>
         </div>
@@ -120,7 +120,7 @@
     </section>
 
     <!-- Shose section -->
-    <section class="container my-5">
+    <section class="container my-5" id="Shose">
       <h2>Shose</h2>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         <div class="col">
@@ -166,7 +166,7 @@
     </section>
 
     <!-- Bags section -->
-    <section class="container my-5">
+    <section class="container my-5" id="Backpack">
       <h2>Backpack</h2>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         <div class="col">
@@ -209,12 +209,22 @@
           </div>
         </div>
       </div>
+      </section>
 
-      
+      <!-- Subscribe section -->
+      <section style="height: 300px;" class="container bg-info d-flex justify-content-center align-items-center rounded-3" id="Subscribe">
+        <div>
+          <h1>LET'S STAY IN TOUCH</h1>
+          <p>Get updates on sales, specials and more</p>
+          <input type="Email" placeholder="Your Email">
+          <br>
+          <div class="btn btn btn-warning">Subscribe</div>
+        </div>
+      </section>
 
   </main>
-  <footer>
-
+  <footer class="mt-5 text-center">
+    <small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small>
   </footer>
 
   <!-- script js Bootstrap -->
